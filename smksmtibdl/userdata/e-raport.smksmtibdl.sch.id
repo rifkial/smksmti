@@ -1,0 +1,17 @@
+--- 
+documentroot: /home/smksmtibdl/public_html/e-raport
+group: smksmtibdl
+hascgi: 1
+homedir: /home/smksmtibdl
+ip: 172.26.14.48
+ipv6: ~
+no_cache_update: 0
+owner: root
+phpopenbasedirprotect: 1
+phpversion: ea-php80
+serveradmin: webmaster@e-raport.smksmtibdl.sch.id
+serveralias: www.e-raport.smksmtibdl.sch.id
+servername: e-raport.smksmtibdl.sch.id
+usecanonicalname: 'Off'
+user: smksmtibdl
+userdirprotect: ''

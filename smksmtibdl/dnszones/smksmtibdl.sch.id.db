@@ -1,0 +1,62 @@
+; cPanel first:108.0.14 (update_time):1684722966 Cpanel::ZoneFile::VERSION:1.3 hostname:admin.aplikasimysch.my.id latest:110.0.5
+; Zone file for smksmtibdl.sch.id
+$TTL 14400
+smksmtibdl.sch.id.	86400	IN	SOA	ns1.aplikasimysch.my.id.	naililfitri05.gmail.com.	(
+						2023052203 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+; smksmtibdl.sch.id.	86400	IN	SOA	ns1.myschid.my.id.	naililfitri05.gmail.com.	( ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+; 						2023031803 ;Serial Number ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+; 						3600 ;refresh ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+; 						1800 ;retry ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+; 						1209600 ;expire ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+; 						86400	) ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+; smksmtibdl.sch.id.	86400	IN	NS	ns1.myschid.my.id. ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+smksmtibdl.sch.id.	86400	IN	NS	ns2.aplikasimysch.my.id.
+smksmtibdl.sch.id.	86400	IN	NS	ns1.aplikasimysch.my.id.
+; smksmtibdl.sch.id.	86400	IN	NS	ns2.myschid.my.id. ; Previous value removed by cPanel transfer auto-merge on 20230506050117 GMT
+smksmtibdl.sch.id.	14400	IN	A	54.254.143.10
+smksmtibdl.sch.id.	14400	IN	MX	0	smksmtibdl.sch.id.
+mail	14400	IN	CNAME	smksmtibdl.sch.id.
+www	14400	IN	CNAME	smksmtibdl.sch.id.
+ftp	14400	IN	A	54.254.143.10
+smksmtibdl.sch.id.	14400	IN	TXT	"v=spf1 ip4:54.254.143.10 +a +mx +ip4:52.77.82.54 ~all"
+cpanel	14400	IN	A	54.254.143.10
+webmail	14400	IN	A	54.254.143.10
+cpcontacts	14400	IN	A	54.254.143.10
+whm	14400	IN	A	54.254.143.10
+webdisk	14400	IN	A	54.254.143.10
+cpcalendars	14400	IN	A	54.254.143.10
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ZJ4sZ2Y55xqrhlHJRMaLwifqGF6vzJ1swT2NOWBTHguJw1gGChT5mA5zY6JCsBpMbKaRhhzs4NPcNniBEun7+XWZkJuFoCjXHIf0NvRhuTfgJJPFtqOu5wxlDxZwFlx4WRGOE1LS4mE6MsA1vqmQGJ/k3UIxoAwfd9EHONmX4/H2ojBDsq/d2u7VnO024hC5" tVzdQUzXDSQ7D09jJHp5Jg6sQFZqaNfvmAaaCYT4e9dECQ6Epcz9JLYgBVCX0FcIiCDfrv3uIh7uUeFuCp11GZD4X8e8K25GCK/1ESCZ9Ayp0pn8tqo5fR4fc8a3+e1uzxsP0VeI82+Nv3E+Sod+wIDAQAB\;
+eraport	14400	IN	A	54.254.143.10
+www.eraport	14400	IN	A	54.254.143.10
+default._domainkey.eraport	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0/I1dvLaQj4+bNkZaZiuMK0jKTmKweDlRb3k9wtekanaa6arVaU2rDndyH/77IR9QttLGNrXY7YQUMEz+1Gg0c1YQ29c/83CN8OhctvkwmSLaO11d2eyULkKrZVZF7jvmznf6fQ3uIWLbUOFTyZfXaQZ0PfClc1/+Z0PPodZPVYk+O2zquAPqQ5IXZ7oyspKj" rBoTv7qgmStEt+RqCYuXzf9MoHjj1EieV4sfIUmvo8A61mXRmhW6tmgmHhrmO8JT5haEDtIxWHgp2FEV4pKJi9rfIHF7Ex9cFsyhmeZj+PUzrKtt89BylzdZ+/p88hqia/jodZO5+F3U+aBJ+vjXQIDAQAB\;
+eraport	14400	IN	TXT	"v=spf1 ip4:54.254.143.10 +a +mx +ip4:52.77.82.54 ~all"
+webdisk.eraport	14400	IN	A	54.254.143.10
+webmail.eraport	14400	IN	A	54.254.143.10
+whm.eraport	14400	IN	A	54.254.143.10
+cpcalendars.eraport	14400	IN	A	54.254.143.10
+cpcontacts.eraport	14400	IN	A	54.254.143.10
+cpanel.eraport	14400	IN	A	54.254.143.10
+backend	14400	IN	A	54.254.143.10
+www.backend	14400	IN	A	54.254.143.10
+default._domainkey.backend	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4QvZopZV4n5VsWTOSVPf48rgrWBgLTvBwq1XN1TrJy6TtnJbB4bhzHHM99QrJU00uGKjgVJ8Ob7xdhmObPQOxupzTU8zBNW9Z7iMt/zvpjWzDomad+n1YN4VjCzQsaHHxvcpuO0I/fj6jol7WXzUWt8yjK4+GjYfTZQPrKXpe8fpXnfQ7PXqawv8fio2hMcWU" jSZPJ3DgEhbNyCOfZah4hCEe9Npeyos3rPlVVspbw63mEq/SCUaUBWlQ33/l1se3pS5sqJH1TvkWTS4ItH0khizCTbzBmqQEXYHL6jLq2ic3SpNaV4Z83/uVVhUQlD1AXPrjj9W0ZK/SBAH1hhrJQIDAQAB\;
+backend	14400	IN	TXT	"v=spf1 ip4:54.254.143.10 +a +mx +ip4:52.77.82.54 ~all"
+cpcalendars.backend	14400	IN	A	54.254.143.10
+cpcontacts.backend	14400	IN	A	54.254.143.10
+whm.backend	14400	IN	A	54.254.143.10
+cpanel.backend	14400	IN	A	54.254.143.10
+webdisk.backend	14400	IN	A	54.254.143.10
+webmail.backend	14400	IN	A	54.254.143.10
+e-raport	14400	IN	A	54.254.143.10
+www.e-raport	14400	IN	A	54.254.143.10
+default._domainkey.e-raport	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqQ9wSMfz1pxIaO47pXFtS59ntyCaorGHAvQBDGZLHi7NW0FpV8G+QIaCBgQ5jQwFbL7qJhzTlSGMfNiWzgXEvL17W3Xn0ao1ttEGwS3wMDwEVm/kpi0sb3+iVuc9CPKv4vzQbrTw1oO+4LP6i8s8jHlOGETxBT9EO7ytuMydfjwW9wa9uHzMrmvb6TfPj+S+3" vv6mxTeFzYP7OHc4CuvF+Dla8ENLeZfN1MbjiMJM5q4fGKCpVijIzQ3NLaDSQvy8rlzMcnvns+IHITYbabYtU6xz3jaXyYS5MhKcTZCOVCHkXJ9BhMY+jzpQcP4J6fwKPer2yq2C3x38ucs+Cr+ZwIDAQAB\;
+e-raport	14400	IN	TXT	"v=spf1 +a +mx +ip4:54.254.143.10 ~all"
+cpcalendars.e-raport	14400	IN	A	54.254.143.10
+cpanel.e-raport	14400	IN	A	54.254.143.10
+webmail.e-raport	14400	IN	A	54.254.143.10
+whm.e-raport	14400	IN	A	54.254.143.10
+webdisk.e-raport	14400	IN	A	54.254.143.10
+cpcontacts.e-raport	14400	IN	A	54.254.143.10

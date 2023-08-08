@@ -1,0 +1,26 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/smksmtibdl.sch.id
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/smksmtibdl.sch.id-bytes_log
+documentroot: /home/smksmtibdl/public_html
+group: smksmtibdl
+hascgi: 0
+homedir: /home/smksmtibdl
+ip: 172.26.14.48
+owner: root
+phpopenbasedirprotect: 1
+phpversion: alt-php80
+port: 80
+scriptalias: 
+  - 
+    path: /home/smksmtibdl/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@smksmtibdl.sch.id
+serveralias: mail.smksmtibdl.sch.id www.smksmtibdl.sch.id
+servername: smksmtibdl.sch.id
+usecanonicalname: 'Off'
+user: smksmtibdl

@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/smksmtibdl/public_html/backend
+group: smksmtibdl
+hascgi: 1
+homedir: /home/smksmtibdl
+ip: 172.26.14.48
+ipv6: ~
+owner: root
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@backend.smksmtibdl.sch.id
+serveralias: www.backend.smksmtibdl.sch.id
+servername: backend.smksmtibdl.sch.id
+ssl: 1
+usecanonicalname: 'Off'
+user: smksmtibdl
+userdirprotect: ''

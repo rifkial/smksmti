@@ -1,0 +1,10 @@
+--- 
+addon_domains: {}
+
+main_domain: smksmtibdl.sch.id
+parked_domains: []
+
+sub_domains: 
+  - eraport.smksmtibdl.sch.id
+  - backend.smksmtibdl.sch.id
+  - e-raport.smksmtibdl.sch.id

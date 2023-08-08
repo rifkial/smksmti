@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/smksmtibdl/public_html
+group: smksmtibdl
+hascgi: 0
+homedir: /home/smksmtibdl
+ip: 172.26.14.48
+ipv6: ~
+owner: root
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@smksmtibdl.sch.id
+serveralias: mail.smksmtibdl.sch.id www.smksmtibdl.sch.id
+servername: smksmtibdl.sch.id
+ssl: 1
+usecanonicalname: 'Off'
+user: smksmtibdl
+userdirprotect: ''
